@@ -1,0 +1,89 @@
+button {
+    outline: none;
+  }
+  
+  .App-mobile {
+    display: flex;
+    flex: 1;
+    flex-direction: column;  
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;    
+    right: 0;
+
+  }
+  
+  .App-header-mobile {
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;  
+    padding-right: 20px;
+  }
+  
+  .Body-mobile {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+
+  .CheckBoxLine{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .CheckBoxLabelLine {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .itemLineTitel {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .itemLine{
+    margin-top: 10px;
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: gainsboro;
+    border-top: 1px solid black;
+  }
+
+  .salvarBtn {
+    width: 50%;
+    background-color:#282c34;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius: 8px;
+    outline: none;
+  }
+
+  .salvarBtn:active{
+    opacity: 0.7;
+  }
